@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto';
+}
+.titulo{
+    font-size: 200%;
+}
+body{
+    background-color: rgb(24, 22, 22);
+    color: white
+}
+h1{
+    font-size: 60px;
+    text-align:center
+    
+}
+h2{
+    font-size: 40px;
+    text-align:center
+    
+}
+h4{
+    font-size: 30px;
+    text-align:center
+}
+h3{
+    margin: 20px;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    
+    height: 150px; 
+    width: 100%;
+    line-height: 130px;
+}
+
+.imagenesPrincipales:hover{
+    transform: scale(1.8);
+    transition: transform .8s;
+}
+.boxS img{
+    width: 230px;
+    border-radius: .5rem;
+}
+
+
+.subServices{
+    text-align: center;
+    padding-bottom: .5rem;
+    
+}
+.containerS{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(18rem,1fr));
+    grid-gap: 1.2 rem;
+}
+.progresivo{
+   
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 30px;
+    display: inline-block;
+    margin: 100px;
+    padding: 20px;
+    border-radius: 0.5rem;
+    
+}
+
+footer {
+    margin-top: 200px;
+    background-color: black;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    
+  }
+
+.autor{
+    height: 200px;
+    padding-top: 100px;
+
+}  
+.correo{
+    color: rgb(255, 255, 255);
+    margin-bottom: 5PX;
+    
+    
+}
+#verMas{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    font-size: 15px;
+    display: inline-block;
+    padding: 20px;
+    border-radius: .5rem;
+    
+}
+.paginaBanda{
+    height: 250px;
+}
+#menu{
+    position: relative;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius: .5rem;
+    padding: 14px;
+}
+#menu:hover{
+    transform: scale(1.2);
+    transition: transform .8s;
+}
+
+.albumVideos{
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    width: 450px;
+    display: block;
+    border-radius: .5rem;
+
+}
+.infoBanda{
+    margin-top: 30px;
+    padding-left: 300px;
+    padding-right: 300px;
+    text-align: justify;
+    margin-bottom: 200px;
+    padding-bottom: 200px;
+    
+
+}
+.lista{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+}
+#fondoTool{
+    background-image: url(imagenes/fondoTool3.jpg);
+    
+}
+#estiloCajas{
+    background-color: rgb(0, 0, 0);
+    border-radius: .5rem;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+#spotify{
+   padding-top: 100px;
+}
